@@ -1,0 +1,15 @@
+
+<options>
+	<title>Autoupdater v1.2</title>
+	<uid>{69DE04A0-49DD1D24-9C734C71-0B8E1C02-3FC62F21}</uid>
+	<options>http://example.org/update/options.xml</options>
+	<patchlist>http://example.org/update/patchlist.xml</patchlist>
+	<updater>http://example.org/update/NewUpdater.exe</updater>
+	<full_check days="2">
+		<reload_patchlist/>
+	</full_check>
+	<run>
+		<program>total.exe</program>
+		<close_updater/>
+	</run>
+</options>
